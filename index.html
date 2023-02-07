@@ -15,7 +15,7 @@
         <h1>Editor de Textos em JavaScript e HTML</h1>
     </div>
 
-    <div class="container d-flex justify-content-center" id="botoes">
+    <div class="container d-flex justify-content-center" id="">
         <div class="btn" id="fontes">
             <button class="btn" id="negrito" onclick="negrito()"><i class="bi bi-type-bold"></i></button>
             <button class="btn" id="italico" onclick="italico()"><i class="bi bi-type-italic"></i></button>
@@ -35,8 +35,18 @@
         </div>
     </div>
     <div class="container d-flex justify-content-center" id="campoDeTexto">
+        <form action="">
         <textarea id="texto" autofocus placeholder="Seu texto aqui..."></textarea>
+        <div class="justify-content-center d-flex">
+            <button class="btn" id="saveButton"><i class="bi bi-save-fill"></i> Salvar</button>
+        </div>
+        </form>
     </div>
     <script src="js/functions.js"></script>
+
+    <script src="/js/salvar.js">
+
+    </script>
+
 </body>
 </html>

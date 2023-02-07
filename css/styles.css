@@ -1,11 +1,3 @@
-#botoes{
-    width: 35%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
 textarea{
     border-radius: 10px;
     width: 535px;
@@ -16,19 +8,38 @@ textarea{
 #negrito,#italico{
     border-style: solid;
     border-color: black;
+    background-color: black;
+    color: white;
 }
 
 #esquerda,#centro,#direita{
     border-style: solid;
     border-color: black;
+    background-color: black;
+    color: white;
 }
 
 #maiusculo,#minusculo,#maiMin{
     border-style: solid;
     border-color: black;
+    background-color: black;
+    color: white;
 }
 
 #limparTexto{
     border-style: solid;
     border-color: black;
+    background-color: darkred;
+    color: white;
+}
+
+#saveButton{
+    background-color: darkgreen;
+    color: white;
+}
+@media screen and (max-width: 680px) and (min-width: 300px){
+
+    h1{
+        text-align: center;
+    }
 }
